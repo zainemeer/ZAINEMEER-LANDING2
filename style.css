@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica Neue, sans-serif;
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+header {
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  border-bottom: 1px solid #ddd;
+  align-items: center;  /* vertical centering */
+  padding: 0.5rem 0;
+  border: 1px solid black; /* <-- adds black outline */
+}
+
+.logo {
+  font-weight: medium;
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.subnav {
+  background-color: white;
+  display: flex;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.subnav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.subnav .active {
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+main {
+  text-align: center;
+  padding: 3rem; 
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem; 
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.hero-image img {
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+main p {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  color: #555;
+  max-width: 400px;
+  margin: -0.5rem auto 1.5rem;
+  }
+  .signup-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.signup-form input {
+  padding: 14px 18px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 0.95rem;
+  color: black;
+  width: 250px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.signup-form input::placeholder {
+  color: #aaa;
+  letter-spacing: 0.5px;
+}
+
+.signup-form input:focus {
+  border: 1px solid #000;
+}
+
+/* Button Styling */
+.signup-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  font-size: 0.95rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #222;
+  transform: scale(1.03);
+}
+
+
